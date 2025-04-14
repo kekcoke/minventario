@@ -1,0 +1,6 @@
+﻿services:
+  minventario:
+    image: minventario
+    build:
+      context: .
+      dockerfile: minventario/Dockerfile
